@@ -3,7 +3,7 @@ body, html {
 	height: 100%
 }
 :root {
-	--HeaderFontSize: 40px;
+	--HeaderFontSize: 60px;
 }
 .HeroOfTimess {
 	background-image: url("https://i.imgur.com/aIjcT7d.jpg");
@@ -20,6 +20,7 @@ ul {
     margin: 0;
 	display:block;
 	padding: 20px;
+	background-image: url("https://goo.gl/images/DiV56g");
 }
 li {
     float: left;
@@ -33,7 +34,8 @@ li {
 	color: black;
 	padding-right: 368px;
 	font-size: var(--HeaderFontSize);
-	background-color: blue;
+	background-image: url("https://goo.gl/images/DiV56g");
+	
 }
 #Thomas-Less-Jefferson {
     display: inline;
@@ -42,4 +44,7 @@ li {
     text-decoration: none;
 	color: black;
 	font-size: var(--HeaderFontSize);
+}
+.GE {
+	background-image: url("https://goo.gl/images/DiV56g");
 }
