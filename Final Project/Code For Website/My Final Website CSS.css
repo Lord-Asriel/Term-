@@ -130,7 +130,7 @@ p {
 }
 .MOODLELOYOLACA {
 	color: black;
-	line-height: 100px;
+	line-height: 50px;
 }
 
 
@@ -180,4 +180,11 @@ p {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+.ToTheLeft {
+	float: left;
+}
+.POKECOW {
+	float:right;
+	height: 315px;
 }
