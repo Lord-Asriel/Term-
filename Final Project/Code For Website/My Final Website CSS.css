@@ -1,4 +1,4 @@
-﻿/* For the background */
+﻿﻿/* For the background */
 body, html {
 	height: 100%
 }
@@ -187,4 +187,8 @@ p {
 .POKECOW {
 	float:right;
 	height: 315px;
+}
+.POKECOW2 {
+	float:right;
+	width: 270px;
 }
