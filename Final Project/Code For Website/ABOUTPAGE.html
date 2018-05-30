@@ -4,7 +4,7 @@
 			<link href= "My Final Website CSS.css" rel="stylesheet" type="text/css"> </link>
 			<title> Test Chamber </title>
 		</head>
-		<body>
+		<body onLoad= "Attempt()">
 			<div class="GE2">
 				<h1 id="PortalMainTitle"> <a id="PortalMainTitle" href="My Final Website HTML.html">Portal</a> </h1>
 				
@@ -21,11 +21,15 @@
 		</body>
 		<script>
 			function Kiloo() {
+			sessionStorage.setItem("Avagadro", "Absolutly");
 			window.open("ABOUTPAGE1.html","_self")
 			}
 			function Attempt() {
 			
-			THOMY = localStorage.getItem("lastname");
+			THOMY = sessionStorage.getItem("Avagadro");
+			if (Avagadro = "Absolutly") {
+				window.open("ABOUTPAGE1.html","_self");
+			}
 			
 			 }
 		</script>
