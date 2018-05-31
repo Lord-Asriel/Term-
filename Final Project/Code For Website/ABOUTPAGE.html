@@ -15,7 +15,8 @@
 					<li> <a id="Thomas-Jefferson" href="GUIDEPAGE.html">Guide </a></li>
 					<li> <a id="Thomas-Less-Jefferson" href="ELEMENTPAGE.html">Elements </a></li>
 				</ul>
-				<p id="MOODLELOYOLACA"> The page you are trying to access contains spoilers!</p>
+				<br>
+				<p id="MOODLELOYOLACA"> Please Wait...</p>
 				<button onclick="Kiloo()">Accept Spoilers</button>
 				</div>
 		</body>
@@ -29,8 +30,13 @@
 			THOMY = sessionStorage.getItem("Avagadro");
 			if (THOMY === "Absolutly") {
 				window.open("ABOUTPAGE1.html","_self");
-			}
+			}else{
+			
+			Nifty() }
 			
 			 }
+			 
+			function Nifty() {
+	document.getElementById("MOODLELOYOLACA").innerHTML = "The page you are trying to access contains spoilers!" }
 		</script>
 	</html>
