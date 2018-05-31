@@ -1,0 +1,15 @@
+A actually good site for Portal.
+
+Act as a replacement to this garbage: http://www.valvesoftware.com/games/portal.html
+
+Websites that inspired me are: http://www.thinkwithportals.com/
+
+https://theportalwiki.com/wiki/Main_Page
+
+
+
+I enjoy this game very much so I want to do a website passed off this. The garbage official website posted above is shocking, and I wish to create a suitable official website for this master piece. For the websites which inspire me, I listed the Portal 2 Website because that website is very nice, though it focuses to much on the games DLC. I also posted the Portal Wiki, because I want my website to have a wiki function to it. I want it to contain a guide to all the games puzzles and have basic explanations to all its game elements. Since the game is very short, this should not be too hard.
+
+As already mentioned this website will contain a guide section for the game, a breakdown of the game's most prominent elements, a work cited page (citing the internet) and of course pages dedicated to promoting the game and providing general information in a optimistic light. This is a recreation of a promotional website after all. A special feature I would like to include if possible is a search bar, capable of recognizing in game elements and specific puzzles.
+
+All coding is a challenge. I want to include a top navigation bar, which is very hard. The search bar will be very hard and basically everything involved in making the website look nice will veryvery hard.
