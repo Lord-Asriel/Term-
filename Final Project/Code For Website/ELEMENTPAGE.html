@@ -4,39 +4,41 @@
 			<link href= "My Final Website CSS.css" rel="stylesheet" type="text/css"> </link>
 			<title> Test Chamber </title>
 		</head>
+		<!-- The body runs Attempt() once the page stops loading. Credit: Mozilla Develepers and W3 -->
 		<body onLoad= "Attempt()">
+			<!-- GE2 controls the background image -->
 			<div class="GE2">
 				<h1 id="PortalMainTitle"> <a id="PortalMainTitle" href="My Final Website HTML.html">Portal</a> </h1>
-				
 				<ul>
-				
 					<li> <a id="ThomasUI-Jefferson" href="ABOUTPAGE.html"> About </a></li>
 					<li> <a id="Thomas-Jefferson" href="PLOTPAGE.html">Plot </a></li>
 					<li> <a id="Thomas-Jefferson" href="GUIDEPAGE.html">Guide </a></li>
 					<li> <a id="Thomas-Less-Jefferson" href="ELEMENTPAGE.html">Elements </a></li>
 				</ul>
 				<br>
+				<!-- The text Please Wait is replaced in the function Nifty() if THOMY is not equal to absolutely -->
 				<p id="MOODLELOYOLACA"> Please Wait...</p>
+				<!-- The button to rule them all, makes THOMY = absolutly, so you do not have to see page again -->
 				<button onclick="Kiloo()">Accept Spoilers</button>
-				</div>
+			</div>
 		</body>
 		<script>
+			//This function opens up the next page, and sets a variable in sessionStorage so you do not have to go through the process of cliking the button again -->
 			function Kiloo() {
-			sessionStorage.setItem("Avagadro", "Absolutly");
-			window.open("ELEMENTPAGE1.html","_self")
+				sessionStorage.setItem("Avagadro", "Absolutly");
+				window.open("ELEMENTPAGE1.html","_self")
 			}
+			//Function Attempt runs when the page loads. It checks if THOMY is equal to Absolutly (THOMY being a variable and Absolutly a string of text). If THOMY does not euqal Absolutly, function Nifty(0 is run, which causes the text saying, please wait to instead warn about spoilers. If on the other hand, the statement is correct, Kiloo() is run, which opens up the text web page.
 			function Attempt() {
-			
-			THOMY = sessionStorage.getItem("Avagadro");
-			if (THOMY === "Absolutly") {
-				window.open("ELEMENTPAGE1.html","_self");
-			}else{
-			
-			Nifty() }
-			
-			 }
-			 
+				THOMY = sessionStorage.getItem("Avagadro");
+				if (THOMY === "Absolutly") {
+					window.open("ELEMENTPAGE1.html","_self");
+				}else{
+					Nifty()
+				}
+			}
 			function Nifty() {
-	document.getElementById("MOODLELOYOLACA").innerHTML = "The page you are trying to access contains spoilers!" }
+				document.getElementById("MOODLELOYOLACA").innerHTML = "The page you are trying to access contains spoilers!"
+			}
 		</script>
 	</html>
