@@ -69,12 +69,12 @@ li {
 	background-color: blue;
 	/*padding-right: var(--Paddingleftamount);*/
 }
+/* GE and GE2 control the Portal background image. GE2 exits for legacy reasons. */
 .GE {
 	background-image: url("https://goo.gl/images/DiV56g");
 }
 .GE2 {
 	background-image: url("https://goo.gl/images/DiV56g");
-	background-repeat: repeat-y;
 }
 p {
 	margin: 12px;
