@@ -7,9 +7,7 @@
 		<body onLoad= "Attempt()">
 			<div class="GE2">
 				<h1 id="PortalMainTitle"> <a id="PortalMainTitle" href="My Final Website HTML.html">Portal</a> </h1>
-				
 				<ul>
-				
 					<li> <a id="ThomasUI-Jefferson" href="ABOUTPAGE.html"> About </a></li>
 					<li> <a id="Thomas-Jefferson" href="PLOTPAGE.html">Plot </a></li>
 					<li> <a id="Thomas-Jefferson" href="GUIDEPAGE.html">Guide </a></li>
@@ -18,25 +16,24 @@
 				<br>
 				<p id="MOODLELOYOLACA"> Please Wait...</p>
 				<button onclick="Kiloo()">Accept Spoilers</button>
-				</div>
+			</div>
 		</body>
 		<script>
 			function Kiloo() {
-			sessionStorage.setItem("Avagadro", "Absolutly");
-			window.open("ABOUTPAGE1.html","_self")
+				sessionStorage.setItem("Avagadro", "Absolutly");
+				window.open("ABOUTPAGE1.html","_self")
 			}
 			function Attempt() {
-			
-			THOMY = sessionStorage.getItem("Avagadro");
-			if (THOMY === "Absolutly") {
-				window.open("GUIDEPAGE1.html","_self");
-			}else{
-			
-			Nifty() }
-			
+				THOMY = sessionStorage.getItem("Avagadro");
+				if (THOMY === "Absolutly") {
+					//Since GUIDEPAGE, ELEMENTPAGE and ABOUTPAGE are similar, I am not going to comment the same things a bunch of times. For comments on all the functions on this page, please see ELEMENTPAGE.
+					window.open("GUIDEPAGE1.html","_self");
+				}else{
+					Nifty()
+				}
 			 }
-			 
 			function Nifty() {
-	document.getElementById("MOODLELOYOLACA").innerHTML = "The page you are trying to access contains spoilers!" }
+				document.getElementById("MOODLELOYOLACA").innerHTML = "The page you are trying to access contains spoilers!" 
+			}
 		</script>
 	</html>
