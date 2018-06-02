@@ -1,4 +1,4 @@
 Much of the code comes from W3 school and Mozilla Develeper.
-All information COMES DIRECLY FROM WIKIPEDIA.
+All information COMES DIRECLY FROM WIKIPEDIA. It was copy pasted so I could focus on the actul code. Please think of all the text, that i have specified by comment in the code, as a quote.
 
 https://www.w3schools.com/howto/howto_css_full_page.asp
